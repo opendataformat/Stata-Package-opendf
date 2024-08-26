@@ -16,7 +16,7 @@ Additionally, you will have access to a practical example of [real data in the O
 
 ``` Stata
 * At this point you can install the development version from github:
-net install opendf, from (https://thartl-diw.github.io/opendf/) replace
+net install opendf, from (https://opendataformat.github.io/stata-package-opendf/) replace
 
 
 ```
@@ -33,7 +33,7 @@ The opendataformat package consists of three main functions:
 
 ``` Stata
 * You can load a dataset in opendf-format with opendf_read by specifying the path to the zip-folder, (in this case, the testdataset from github):
-opendf read "https://thartl-diw.github.io/opendf/data/testdata.zip", clear verbose
+opendf read "https://opendataformat.github.io/stata-package-opendf/data/testdata.zip", clear verbose
 
 ```
 
