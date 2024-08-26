@@ -351,8 +351,6 @@ program define opendf_csv2dta
 			if (_rc == 0){
 				local _variable_type : type `_varname`i''
 				if strpos("`_variable_type'", "str") == 1 {
-					*local _valuelabelforstringvariable=1
-					*global warnings= `"$warnings {p}{red: Warning: Values for{it: `_varname`i''} not labelled:{it: `_varname`i''} is a string variable.}{p_end}"'
 					forvalues j=1/`_var`i'_nvals'{
 						if (`j'==1){
 							local _values = "`_var`i'_value`j''"

@@ -28,7 +28,7 @@ The opendataformat package consists of three main functions:
 
 ``` Stata
 * You can load a dataset in opendf-format with opendf_read by specifying the path to the zip-folder, (in this case, the testdataset from github):
-opendf read "https://opendataformat.github.io/stata-package-opendf/data/testdata.zip", clear verbose
+opendf read "https://opendataformat.github.io/stata-package-opendf/example_data/soep_data.zip", clear verbose
 
 ```
 
@@ -58,12 +58,15 @@ This allows you to easily select the desired language for your dataset operation
 The language codes are defined by the [ISO 639-1](https://de.wikipedia.org/wiki/Liste_der_ISO-639-1-Codes).
 
 
-## Getting help
+## Further Information
 
 For more comprehensive insights into the Open Data Format specification, please visit: [Open Data Format Specification](https://git.soep.de/opendata/specification). 
 This resource provides detailed documentation and profiles illustrating the storage locations of attributes within the Open Data Format, as well as within the native formats to which they will be converted.
 
 Additionally, you will have access to a practical example of [real data in the Open Data Format](https://git.soep.de/opendata/open-data-package).
+
+## Getting help
+
 If you encounter a clear bug, please file a minimal reproducible example
 on [github](https://github.com/opendataformat/stata-package-opendf/issues). 
 
