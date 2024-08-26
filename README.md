@@ -28,7 +28,7 @@ The opendataformat package consists of three main functions:
 
 ``` Stata
 * You can load a dataset in opendf-format with opendf_read by specifying the path to the zip-folder, (in this case, the testdataset from github):
-opendf read "https://opendataformat.github.io/stata-package-opendf/data/testdata.zip", clear verbose
+opendf read "https://opendataformat.github.io/stata-package-opendf/example_data/soep_data.zip", clear verbose
 
 ```
 
