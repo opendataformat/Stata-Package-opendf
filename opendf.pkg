@@ -22,7 +22,7 @@ d
 d Author: Tom Hartl
 d Support: thartl@diw.de
 
-* version 2.0.0, 23 August 2024 - SSC release
+* version 2.0.0, 26 August 2024 - SSC release
 
 f opendf/opendf.ado
 f opendf/opendf.sthlp
@@ -44,5 +44,6 @@ f opendf_dta2csv/opendf_dta2csv.ado
 f opendf_dta2csv/opendf_dta2csv.sthlp
 f opendf_csv2zip/opendf_csv2zip.ado
 f opendf_csv2zip/opendf_csv2zip.sthlp
+f data/testdata.zip
 f python/xml2csv.py
 f python/csv2xml.py

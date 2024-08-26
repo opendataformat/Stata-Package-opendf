@@ -33,7 +33,7 @@ The opendataformat package consists of three main functions:
 
 ``` Stata
 * You can load a dataset in opendf-format with opendf_read by specifying the path to the zip-folder, (in this case, the testdataset from github):
-opendf read "https://thartl-diw.github.io/opendf/Testdata/testdata.zip", clear verbose
+opendf read "https://thartl-diw.github.io/opendf/data/testdata.zip", clear verbose
 
 ```
 
@@ -66,5 +66,5 @@ The language codes are defined by the [ISO 639-1](https://de.wikipedia.org/wiki/
 ## Getting help
 
 If you encounter a clear bug, please file a minimal reproducible example
-on [gitlab](https://git.soep.de/opendata/Stata-package/-/issues). 
+on [github](https://github.com/opendataformat/stata-package-opendf/issues). 
 
