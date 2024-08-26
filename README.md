@@ -66,5 +66,5 @@ The language codes are defined by the [ISO 639-1](https://de.wikipedia.org/wiki/
 ## Getting help
 
 If you encounter a clear bug, please file a minimal reproducible example
-on [gitlab](https://git.soep.de/opendata/Stata-package/-/issues). 
+on [github](https://github.com/opendataformat/stata-package-opendf/issues). 
 
