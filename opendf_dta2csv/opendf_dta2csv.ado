@@ -93,12 +93,6 @@ program define opendf_dta2csv
 			}
 		}
 		gen url="`url'"
-		*foreach v of varlist _all{
-		*		local _variable_type : type `v'
-		*		if strpos("`_variable_type'", "str") == 1 {
-		*			quietly: replace `v' = subinstr(`v', "'", char(34), .)
-		*		}
-		*	}
 		
 		*order columns (check whether label/description without language tag exist)
 		capture confirm variable description, exact
