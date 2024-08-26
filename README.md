@@ -16,7 +16,7 @@ Additionally, you will have access to a practical example of [real data in the O
 
 ``` Stata
 * At this point you can install the development version from github:
-net install opendf, from (https://thartl-diw.github.io/opendf/) replace
+net install opendf, from (https://opendataformat.github.io/stata-package-opendf/) replace
 
 
 ```
