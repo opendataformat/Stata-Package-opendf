@@ -99,7 +99,6 @@ program define opendf_docu
 		
         local _url: char _dta[url]
     }
-    *if "`_output'"=="variable" display "{p}Variable: {text:`_name'}{p_end}"
     if "`_output'"=="dataset" display "{p}Dataset: {text:`_name'}{p_end}"
     foreach l in `_lang'{
 	    if (`"`languages'"'=="all"){
