@@ -32,7 +32,7 @@ help for {cmd:opendf installpython (opendf_installpython)}{right: version 2.0.0 
 {title:Description}
 
 {pstd}
-{cmd:opendf installpython} Copies a portable Python installation to your computer. For Python version to work with Stata install Python to default location (Stata ado plus folder).{p_end}
+{cmd:opendf installpython} Copies a portable Python installation to your computer. For Python version to work with the opendf package in Stata install Python to default location (Stata ado plus folder).{p_end}
 {pstd}The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where Python is saved.{p_end}
 {pstd}
 {opt version} Specifies the version of Python. It should be 2.7 or higher to function with Stata. Default is 3.12. Python 3 is strongly recommended.{p_end}
