@@ -23,8 +23,8 @@ help for {cmd:opendf removepython (opendf_removepython)}{right: version 2.0.0 (2
 {synoptset 20 tabbed}{...}
 {marker options}{synopthdr:options}
 {synoptline}
-{synopt :{opt version(string)}} specifies a python version. eg. "3.12" {p_end}
-{synopt :{opth location(string)}} specifies a path where to delete python {p_end}
+{synopt :{opt version(string)}} specifies a Python version. eg. "3.12" {p_end}
+{synopt :{opth location(string)}} specifies a path where to delete Python {p_end}
 {synoptline}
 
 
@@ -32,9 +32,9 @@ help for {cmd:opendf removepython (opendf_removepython)}{right: version 2.0.0 (2
 {title:Description}
 
 {pstd}{cmd: opendf removepython} Removes portable Python installation(s) from some directory on your computer.{p_end}
-{pstd}The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where python is saved. {p_end}
-{pstd}{opt version} Specifies the version of python to be removed. {p_end}
-{pstd}{opt location} Specifies the location where the python folder should be deleted. Default is the Stata ado/plus folder, where opendf installpython deploys portable Python installation(s). {p_end}
+{pstd}The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where Python is saved. {p_end}
+{pstd}{opt version} Specifies the version of Python to be removed. {p_end}
+{pstd}{opt location} Specifies the location where the Python folder should be deleted. Default is the Stata ado/plus folder, where opendf installpython deploys portable Python installation(s). {p_end}
 
 
 {marker remarks}
@@ -48,10 +48,10 @@ If this command is not working, restarting Stata and executing the command befor
 {marker examples}
 {title:Examples}
 
-{phang}Install python v3.12 (default) to the folder python3.12 in the ado\plus folder{p_end}
+{phang}Install Python v3.12 (default) to the folder python3.12 in the ado\plus folder{p_end}
 {phang}{cmd:. opendf installpython}{p_end}
 
-{phang} Deletes python v3.12 from the ado\plus folder{p_end}
+{phang} Deletes Python v3.12 from the ado\plus folder{p_end}
 {phang}{cmd:. opendf removepython, version("3.12")}{p_end}
 
 {phang} Deletes all folders which contain "python" in the name in C:\Program Files\python {p_end}
