@@ -9,7 +9,7 @@
 {viewerjumpto "Description" "opendf_zip2csv##description"}{...}
 {viewerjumpto "Options" "opendf_zip2csv##options"}{...}
 {viewerjumpto "Examples" "opendf_zip2csv##examples"}{...}
-help for {cmd:opendf csv2zip (opendf_zip2csv)}{right: version 2.0.0 (26 August 2024)}
+help for {cmd:opendf csv2zip (opendf_zip2csv)}{right: version 2.0.0 (27 August 2024)}
 {hline}
 
 {phang}
