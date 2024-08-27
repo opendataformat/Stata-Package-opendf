@@ -32,12 +32,12 @@ help for {cmd:opendf}{right: version 2.0.0 (27 August 2024)}
 
 {p} {bf:Functions to Install/Remove Python for Opendf Package}{p_end}
 
-    Download a portable python version for a working Python integration in Stata for the opendf package.
+    Download a portable Python version for a working Python integration in Stata for the opendf package.
 
 {p 8 16 2}{cmd:opendf} {cmd:installpython} [, {opt version()} {opt location()}]
 
 
-    Delete the portable python version installed with opendf installpython.
+    Delete the portable Python version installed with opendf installpython.
 
 {p 8 16 2}{cmd:opendf} {cmd:removepython} [, {opt version()} {opt location()}]
 
@@ -74,9 +74,9 @@ help for {cmd:opendf}{right: version 2.0.0 (27 August 2024)}
 {pstd}
 {cmd:opendf docu} {hline 2} Display information about the dataset or a variable. {p_end}
 {pstd}
-{cmd:opendf installpython} {hline 2} Downloads a portable python installation to some directory (default: Stata ado plus folder) on your computer. {p_end}
+{cmd:opendf installpython} {hline 2} Downloads a portable Python installation to some directory (default: Stata ado plus folder) on your computer. {p_end}
 {pstd}
-{cmd:opendf removepython} {hline 2} Removes portable python that was installed with opendf installpython. {p_end}
+{cmd:opendf removepython} {hline 2} Removes portable Python that was installed with opendf installpython. {p_end}
 {pstd}
 {cmd:opendf csv2dta} {hline 2} Build a Stata dataset (.dta) with metadata from the opendf specification from four csv files containing meta data for survey data. {p_end}
 {pstd}
@@ -108,4 +108,4 @@ Tom Hartl ({browse "mailto:thartl@diw.de":thartl@diw.de}), Deutsches Institut f√
 {title:Also see}
 
 {psee}
-{space 2}Help: {help opendf read}, {help opendf write}, {help opendf docu}, {help opendf installpython}, {help opendf removepython} {help opendf csv2dta}, {help opendf csv2zip}, {help opendf dta2csv}, {help opendf zip2csv} {p_end}
+{space 2}Help: {help opendf read}, {help opendf write}, {help opendf docu}, {help opendf installPython}, {help opendf removePython} {help opendf csv2dta}, {help opendf csv2zip}, {help opendf dta2csv}, {help opendf zip2csv} {p_end}
