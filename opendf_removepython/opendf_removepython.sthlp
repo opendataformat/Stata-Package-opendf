@@ -11,7 +11,7 @@ help for {cmd:opendf removepython (opendf_removepython)}{right: version 2.0.0 (2
 {hline}
 
 {phang}
-{bf:opendf removepython} {hline 2} Removes python folder(s) from the ado/plus folder or a specified folder. {p_end}
+{bf:opendf removepython} {hline 2} Removes portable Python installation(s) from the ado/plus folder or a specified folder. {p_end}
 
 
 {marker syntax}
@@ -31,10 +31,10 @@ help for {cmd:opendf removepython (opendf_removepython)}{right: version 2.0.0 (2
 {marker description}
 {title:Description}
 
-{pstd}{cmd: opendf removepython} Removes python folders from some directory on your computer.{p_end}
+{pstd}{cmd: opendf removepython} Removes portable Python installation(s) from some directory on your computer.{p_end}
 {pstd}The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where python is saved. {p_end}
 {pstd}{opt version} Specifies the version of python to be removed. {p_end}
-{pstd}{opt location} Specifies the location where the python folder should be deleted. Default is the Stata ado/plus folder, where opendf installpython deploys python by default. {p_end}
+{pstd}{opt location} Specifies the location where the python folder should be deleted. Default is the Stata ado/plus folder, where opendf installpython deploys portable Python installation(s). {p_end}
 
 
 {marker remarks}
