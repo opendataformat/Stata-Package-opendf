@@ -32,12 +32,12 @@ help for {cmd:opendf}{right: version 2.0.0 (26 August 2024)}
 
 {p} {bf:Functions to Install/Remove Python for Opendf Package}{p_end}
 
-    Download a python version for a working Python integration in Stata for the opendf package.
+    Download a portable python version for a working Python integration in Stata for the opendf package.
 
 {p 8 16 2}{cmd:opendf} {cmd:installpython} [, {opt version()} {opt location()}]
 
 
-    Delete a python version installed with opendf installpython.
+    Delete the portable python version installed with opendf installpython.
 
 {p 8 16 2}{cmd:opendf} {cmd:removepython} [, {opt version()} {opt location()}]
 
@@ -74,9 +74,9 @@ help for {cmd:opendf}{right: version 2.0.0 (26 August 2024)}
 {pstd}
 {cmd:opendf docu} {hline 2} Display information about the dataset or a variable. {p_end}
 {pstd}
-{cmd:opendf installpython} {hline 2} Copies python to some directory on your computer. {p_end}
+{cmd:opendf installpython} {hline 2} Downloads a portable python installation to some directory (default: Stata ado plus folder) on your computer. {p_end}
 {pstd}
-{cmd:opendf removepython} {hline 2} Removes python that was installed with opendf installpython. {p_end}
+{cmd:opendf removepython} {hline 2} Removes portable python that was installed with opendf installpython. {p_end}
 {pstd}
 {cmd:opendf csv2dta} {hline 2} Build a Stata dataset (.dta) with metadata from the opendf specification from four csv files containing meta data for survey data. {p_end}
 {pstd}

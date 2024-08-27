@@ -11,7 +11,7 @@ help for {cmd:opendf installpython (opendf_installpython)}{right: version 2.0.0 
 {hline}
 
 {phang}
-{bf:opendf installpython} {hline 2} Copies python to some directory on your computer. {p_end}
+{bf:opendf installpython} {hline 2} Downloads a Portable Python Installation. {p_end}
 
 
 {marker syntax}
@@ -32,7 +32,8 @@ help for {cmd:opendf installpython (opendf_installpython)}{right: version 2.0.0 
 {title:Description}
 
 {pstd}
-{cmd:opendf installpython} Copies python to some directory on your computer. The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where python is saved.{p_end}
+{cmd:opendf installpython} Copies a portable Python installation to your computer. For Python version to work with Stata install Python to default location (Stata ado plus folder).{p_end}
+{pstd}The command only works for Windows and does not require administrator privileges. But the user needs writing permission for the folder where python is saved.{p_end}
 {pstd}
 {opt version} Specifies the version of python. It should be 2.7 or higher to function with Stata. Default is 3.12. Python 3 is strongly recommended.{p_end}
 {pstd}
@@ -53,13 +54,13 @@ To activate any python installation on your computer in Stata, run: {cmd: set py
 {marker examples}
 {title:Examples}
 
-{phang}Install python v3.12 (default) to the folder python3.12 in the ado\plus folder. {p_end}
+{phang}Install portable Python v3.12 (default) to the folder python3.12 in the ado\plus folder. {p_end}
 {phang}{cmd:. opendf installpython}{p_end}
 
-{phang}Install python v3.10  to the folder python3.10 in the ado\plus folder. {p_end}
+{phang}Install Python v3.10  to the folder python3.10 in the ado\plus folder. {p_end}
 {phang}{cmd:. opendf installpython, version("3.10")}{p_end}
 
-{phang}Install python v3.10  to the folder "C:\Program Files\python". {p_end}
+{phang}Install Python v3.10  to the folder "C:\Program Files\python". {p_end}
 {phang}{cmd:. opendf installpython, version("3.10") location("C:\Program Files\python")} {p_end}
 
 
