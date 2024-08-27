@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `opendataformat` package is specifically designed to facilitate the seamless utilization of the Open Data Format. 
+The `opendf` package is specifically designed to facilitate the seamless utilization of the Open Data Format. 
 It offers functionality to import data from the Open Data Format into a Stata data frame, as well as export data from a Stata data frame (.dta) to the Open Data Format. 
 Additionally, you can easily access comprehensive information about the dataset and variables. 
 This user-friendly approach ensures convenient exploration and utilization of dataset information within your preferred environment.
