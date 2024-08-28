@@ -7,7 +7,7 @@
 {viewerjumpto "Options" "opendf_csv2dta##options"}{...}
 {viewerjumpto "Description" "opendf_csv2dta##description"}{...}
 {viewerjumpto "Examples" "opendf_csv2dta##examples"}{...}
-help for {cmd:opendf csv2dta (opendf_csv2dta)}{right: version 2.0.01 (28 August 2024)}
+help for {cmd:opendf csv2dta (opendf_csv2dta)}{right: version 2.0.11 (28 August 2024)}
 {hline}
 
 {phang}

@@ -22,7 +22,7 @@ d
 d Author: Tom Hartl
 d Support: thartl@diw.de
 
-* version 2.0.0, 27 August 2024 - SSC Initial Release
+* version 2.0.1, 28 August 2024 - SSC Initial Release
 
 f opendf/opendf.ado
 f opendf/opendf.sthlp
