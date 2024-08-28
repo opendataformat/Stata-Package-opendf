@@ -6,7 +6,7 @@
 {viewerjumpto "Description" "opendf read##description"}{...}
 {viewerjumpto "Remarks" "opendf read##remarks"}{...}
 {viewerjumpto "Examples" "opendf read##examples"}{...}
-help for  {cmd:opendf read (opendf_read)}{right: version 2.0.0 (27 August 2024)}
+help for  {cmd:opendf read (opendf_read)}{right: version 2.0.1 (28 August 2024)}
 {hline}
 
 {phang}
