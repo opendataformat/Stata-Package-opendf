@@ -55,7 +55,7 @@ This command from the opendf package is part of the Open Data Format Project bun
 {title:Examples}
 
 {phang}Builds and saves four csv-files in the C:\Documents\csv_files-folder from the datafile testdata.zip {p_end}
-{phang}{cmd:.  opendf_zip2csv, input_zip("C:\documents\testdata.zip"), output_dir("C:\Documents\csv_files") languages("all")}{p_end}
+{phang}{cmd:.  opendf_zip2csv, input_zip("C:\documents\testdata.zip") output_dir("C:\Documents\csv_files") languages("all")}{p_end}
 
 
 {marker author}
