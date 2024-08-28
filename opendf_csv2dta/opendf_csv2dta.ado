@@ -331,14 +331,20 @@ program define opendf_csv2dta
 				if (`j'==1){
 					forvalues l = 1/`language_counter'{
 						if `"`_var`i'_label`j'_lan`_language`l'''"' != ""{
-							label define _var`i'_labels_`_language`l'' `_var`i'_value`j'' `"`_var`i'_label`j'_lan`_language`l'''"'
+							capture label define _var`i'_labels_`_language`l'' `_var`i'_value`j'' `"`_var`i'_label`j'_lan`_language`l'''"'
+							if (_rc == 198){
+								di "{red: Warning: Invalid value of value label. Label `_var`i'_label`j'_lan`_language`l''' for `_var`i'_value`j'' of variable `_varname`i'' was not assigned.}"
+							}
 						}
 					}	
 				}
 				if `j'>1 {
 					forvalues l = 1/`language_counter'{
 						if `"`_var`i'_label`j'_lan`_language`l'''"' != ""{
-							label define _var`i'_labels_`_language`l'' `_var`i'_value`j'' `"`_var`i'_label`j'_lan`_language`l'''"', add
+							capture label define _var`i'_labels_`_language`l'' `_var`i'_value`j'' `"`_var`i'_label`j'_lan`_language`l'''"', add
+							if (_rc == 198){
+								di "{red: Warning: Invalid value of value label. Label `_var`i'_label`j'_lan`_language`l''' for `_var`i'_value`j'' of variable `_varname`i'' was not assigned.}"
+							}
 						}
 					}
 				}
